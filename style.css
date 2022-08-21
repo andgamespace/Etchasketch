@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 1px;
+}
+.grid-container {
+    display:grid;
+    height:400px;
+    width:400px;
+    border: 1px solid black;
+
+}
