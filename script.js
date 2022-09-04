@@ -9,7 +9,7 @@ function makeGrid() {
         square.classList.add("square")
         square.addEventListener('mouseover', colorChange)
         square.addEventListener('mousedown', colorChange)
-        grid.appendChild(square)
+        grid.insertAdjacentElement("beforeend", square)
     }
 
 }
