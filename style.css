@@ -3,10 +3,11 @@
     margin: 1px;
     padding: 1px;
 }
-.grid-container {
+.grid{
     display:grid;
-    height:400px;
-    width:400px;
+    justify-items:center;
+    height:300px;
+    width:300px;
     border: 1px solid black;
 
 }
